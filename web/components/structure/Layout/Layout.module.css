@@ -1,0 +1,35 @@
+.main {
+	background-color: black;
+	width: 100vw;
+	position: absolute;
+	left: 0;
+	top: 0;
+	min-height: 100vh;
+}
+.glass {
+	position: fixed;
+    width: 100vw;
+    bottom: 0;
+    z-index: 0;
+}
+
+.whiteSpace {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    z-index: 0;
+    background: white;
+    height: 30vh;
+}
+.content {
+	border: solid #DDDDDD 1px;
+	border-radius: 11px;
+	background: white;
+	padding: 24px 10%;
+	margin: 15px 22vw 0 22vw;
+	height: 10000px;
+	position: relative;
+}
+.mContent {
+	margin: 15px 10vw 0 10vw;
+}
